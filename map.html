@@ -68,7 +68,7 @@
 
     // Function to fetch weather data
     async function fetchWeatherData(lat, lon) {
-        const apiKey = '4edae025e8f4db3bc4af7d2fb2aad71a'; // OpenWeatherMap API key
+        const apiKey = '5b3ce3597851110001cf6248f2927f3bb059485bbb10a4cf56656eb8'; // OpenWeatherMap API key
         const response = await fetch(https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric);
         if (!response.ok) {
             throw new Error("Weather data not available");
